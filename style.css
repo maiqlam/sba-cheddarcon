@@ -395,6 +395,8 @@ span:not(:last-child)::after {
     height: auto;
     padding: 1rem;
     border-radius: 20%;
+    border: 5px solid white;
+    margin-top: 1rem;
 }
 
 
@@ -405,17 +407,72 @@ span:not(:last-child)::after {
     height: auto;
     padding: 1rem;
     border-radius: 20%;
+    border: 5px solid white;
+    margin-top: 1rem;
 }
 
 .about {
-    width: 300px;
+    width: 280px;
     padding: 20px;
+    text-align: justify;
 }
 
+.about_nowrap {
+    width: 100%;
+    text-align: center;
+}
+
+.album {
+    text-align: center;
+    font-style: italic;
+    font-size: 16px;
+}
 .album img {
-    width: 300px;
-    height: auto;
-    padding: 10px;
+    width: 250px;
+    height: 250px;
+    padding: 10px 10px 0px 10px;
+    object-fit:cover;
+    border-radius: 20%;
+}
+
+.nap img {
+    width: 180px;
+    height: 180px;
+    padding: 10px 5px 0px 5px;
+    object-fit:cover;
+    border-radius: 50%;
+}
+
+sup {
+    font-style: italic;
+    font-size: 12px;
+}
+
+
+.meowf_pics {
+    max-width: 380px;
+    text-align: center;
+}
+.meowf_pics img {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+}
+
+.meowf_pics img:hover{
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.4);
+    transition: 1s ease;
+  }
+
+.meowf_info {
+    max-width: 350px;
+    text-align: justify;
+    padding: 2rem;
+    margin: 2rem;
+    background: radial-gradient(#f6e33cb2, #bcdbdf);
+    border-radius: 30%;
 }
 
 /* CONTACT */
